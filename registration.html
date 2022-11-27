@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* margin-left: 15%; */
+            /* margin-right: 5%; */
+            border: 1px solid #000000;
+            /* margin-bottom: 5px; */
+            height: 90vh;
+            /* height: 100vh; */
+            /* background-size: cover; */
+            /* background-position: center; */
+            width: 360px;
+            /* padding: 10% 0 0; */
+            /* margin: auto; */
+            /* position: relative; */
+            /* z-index: 1; */
+            background: rgb(15, 149, 173);
+            max-width: 360px;
+            margin: 0 auto 100px;
+            padding: 45px;
+            /* text-align: center; */
+            /* background-image: url(d.jpg); */
+            /* background-position: center; */
+        }
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 10px;
+            margin: 0px 0 15px 0;
+            /* display: inline-block; */
+            /* border: none; */
+            font: size 14px;
+            /* box-sizing=border-box; */
+            background: #F5F5F5;
+        }
+        
+        hr {
+            border: 1px solid #e6e6e6;
+            /* position: relative; */
+            /* z-index: 1; */
+            background: rgb(15, 150, 173);
+            max-width: 360px;
+            /* margin: 0 auto 100px; */
+            padding: 45px;
+            /* text-align: center; */
+            /* margin-bottom: 5px; */
+        }
+        
+        .registerbutton {
+            background-color: #29a329;
+            color: white;
+            padding: 15px 20px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            text: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="action.php">
+
+        <label for="name"><b>Name:</b></label>
+        <input type="text" placeholder="Enter Your Name" name="name" required><br>
+
+        <label for="name"><b>Username:</b></label>
+        <input type="text" placeholder="Enter Your Email" name="" required><br>
+
+        <label for="pwd"><b>Password:</b></label>
+        <input type="password" placeholder="Enter Your Password" name="psw" required><br>
+
+        <label for="psw-repeat"><b>Confirm Password:</b></label>
+        <input type="password" placeholder="Password" name="psw-repeat" required><br>
+
+        <label for="name"><b>Age:</b></label>
+        <input type="number" placeholder="Enter Your Age " name="" required><br>
+        <br>
+
+        <label for="name"><b>Dateofbirth:</b></label>
+        <input type="date" placeholder=" Enter Your DOB " name=" " required><br>
+        <br>
+
+        <label for="name "><b>Country:</b></label>
+        <input type="text " placeholder="Country " name=" " required><br>
+        <br>
+
+        <label for="name "><b>State:</b></label>
+        <input type="text " placeholder="State" name=" " required><br><br>
+
+        <label for="name "><b>City:</b></label>
+        <input type="text " placeholder="City " name=" " required><br>
+        <br>
+        <label class="header">Profile Photo:</label>
+        <input id="image" type="file" name="profile_photo" placeholder="Photo" required="" capture>
+
+
+        <p>By creating an account you agree to our <a href="# ">Terms & Privacy</a>.</p>
+
+        <button type="submit " class="registerbutton ">Register</button>
+
+
+
+        <p>Already have an account? <a href="index.html">Login</a>.</p>
+
+    </form>
+
+
+</body>
+
+</html>

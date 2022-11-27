@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* border: 1px solid #000000; */
+            height: 40vh;
+            width: 360px;
+            background: rgb(173, 104, 15);
+            max-width: 360px;
+            margin: 0 auto 100px;
+            padding: 200px;
+        }
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 10px;
+            margin: 0px 0 15px 0;
+            font: size 14px;
+            background: #F5F5F5;
+        }
+        
+        hr {
+            border: 1px solid #e6e6e6;
+            background: rgb(15, 150, 173);
+            max-width: 360px;
+            padding: 45px;
+        }
+        
+        .registerbutton {
+            background-color: #29a329;
+            color: white;
+            padding: 15px 20px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            text: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="action.php">
+        <label for="name"><b>Username</label>
+        <input type="text" placeholder="Enter Your Name" name="name" required><br>
+
+
+        <label for="pwd"><b>Password</b></label>
+        <input type="password" placeholder="Enter Your Password" name="psw" required><br>
+
+
+        <button type="submit" class="registerbutton">Login</button>
+        <p class="message">Not registerd?
+            <a href="./registration.html">Register</a>
+        </p>
+    </form>
+
+
+</body>
+
+</html>
